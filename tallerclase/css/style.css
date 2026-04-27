@@ -1,0 +1,161 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+/* ── Menú ── */
+nav.menu {
+    
+    padding: 10px 0;
+    margin: 15px 0;
+    background-color: #FFA500;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li a {
+    background: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.menu ul li a img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.menu ul li a:hover {
+    background: black;
+    color: white;
+}
+
+/* ── Imagen principal ── */
+.container main img {
+    width: 100%;
+}
+
+/* ── Combos ── */
+.imagenes {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    padding-bottom: 20px;
+   
+}
+
+.combo {
+    flex: 1;
+    text-align: center;
+}
+
+.combo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.combo h4 {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+/* ── Footer ── */
+footer {
+    
+    padding-top: 20px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgba(25, 83, 5, 0.2);
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+footer ul li a {
+    background: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+footer ul li a img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+footer ul li a:hover {
+    background: rgb(223, 116, 17);
+    color: white;
+}
+
+
+
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+label {display: block;}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
